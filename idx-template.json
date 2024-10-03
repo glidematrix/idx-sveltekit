@@ -1,0 +1,11 @@
+{
+    "name": "SvelteKit",
+    "description": "SvelteKit is a framework for rapidly developing robust, performant web applications using Svelte.",
+    "categories": [
+      "Web app",
+      "Backend"
+    ],
+    "icon": "",
+    "website": "https://mundia.me/",
+    "publisher": "Mundia Mwala"
+}
