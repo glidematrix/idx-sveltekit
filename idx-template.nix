@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   packages = [
-    pkgs.nodejs_24
+    pkgs.nodejs_22
   ];
   bootstrap = ''    
     npm create svelte@latest \"$WS_NAME\" -- --template skeleton --typescript --eslint --prettier
