@@ -11,6 +11,5 @@
 
     mv "$WS_NAME" "$out"
     cd "$out"; npm install --package-lock-only --ignore-scripts
-
   '';
 }
