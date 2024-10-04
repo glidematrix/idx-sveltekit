@@ -3,6 +3,8 @@
     pkgs.nodejs
   ];
   bootstrap = ''
+    mkdir -p "$WS_NAME"
+    
     npm create svelte@latest $WS_NAME -- --template skeleton --typescript --eslint --prettier
 
     mkdir -p "$WS_NAME/.idx/"
