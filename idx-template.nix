@@ -2,8 +2,8 @@
   packages = [
     pkgs.nodejs
   ];
-  bootstrap = ''    
-    npm create svelte@latest \"$WS_NAME\" -- --template skeleton --typescript --eslint --prettier
+  bootstrap = ''
+    npm create svelte@latest $WS_NAME -- --template skeleton --typescript --eslint --prettier
 
     mkdir -p "$WS_NAME/.idx/"
     cp -rf ${./dev.nix} "$WS_NAME/.idx/dev.nix"
